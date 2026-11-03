@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: xdg-base-dirs
-  version: "6.0.2"
+  version: "6.1.0"
 
 package:
   name: ${{ name }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xdg-base-dirs/xdg_base_dirs-${{ version }}.tar.gz
-  sha256: 950504e14d27cf3c9cb37744680a43bf0ac42efefc4ef4acf98dc736cab2bced
+  sha256: 552729eabe55170f285954374f29bb03ba6b6dea10910f48785e69cb95215a06
 
 build:
   number: 0
